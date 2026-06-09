@@ -102,7 +102,7 @@
                         <div class="volume-fill" id="volumeFill" style="width: 80%;"></div>
                     </div>
                 </div>
-                <button class="utility-btn" id="btnToggleLyrics" title="Lyrics" aria-label="Lyrics">
+                <button class="utility-btn hide" id="btnToggleLyrics" title="Lyrics" aria-label="Lyrics">
                     <svg viewBox="0 0 24 24" class="icon"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
                 </button>
                 <button class="utility-btn" id="btnToggleQueue" title="Up Next" aria-label="Queue">
@@ -447,6 +447,102 @@
             <div class="modal-buttons">
                 <button class="secondary-btn" id="btnCancelPlaylistModal">Cancel</button>
                 <button class="accent-btn" id="btnConfirmPlaylistModal">Create</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Interactive Profile Settings and Authentication Modal -->
+    <div class="modal-overlay hide" id="profileDetailsModal">
+        <div class="modal-content profile-modal-content">
+            <div class="profile-modal-header">
+                <h3>Apple ID Account</h3>
+                <button class="drawer-close-btn" id="btnCloseProfileModal" aria-label="Close Profile Modal">&times;</button>
+            </div>
+            
+            <div class="modal-tabs">
+                <button class="modal-tab active" id="tabEditProfile">Edit Profile</button>
+                <button class="modal-tab" id="tabAuth">Sign In / Sign Up</button>
+            </div>
+
+            <!-- Tab Panel: Edit Profile -->
+            <div class="modal-panel" id="panelEditProfile">
+                <div class="form-group">
+                    <label for="profileName">Name</label>
+                    <input type="text" id="profileName" placeholder="Your Name" autocomplete="off">
+                </div>
+                <div class="form-group">
+                    <label for="profileEmail">Mail</label>
+                    <input type="email" id="profileEmail" placeholder="name@example.com" autocomplete="off">
+                </div>
+                <div class="form-group">
+                    <label for="profileDob">Date of Birth</label>
+                    <input type="date" id="profileDob">
+                </div>
+                <div class="form-group">
+                    <label for="profileGender">Gender</label>
+                    <select id="profileGender">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Non-binary">Non-binary</option>
+                        <option value="Prefer not to say">Prefer not to say</option>
+                    </select>
+                </div>
+                <div class="modal-buttons">
+                    <button class="accent-btn" id="btnSaveProfile" style="width: 100%; justify-content: center; margin-top: 10px;">Save Profile</button>
+                </div>
+            </div>
+
+            <!-- Tab Panel: Sign In / Sign Up -->
+            <div class="modal-panel hide" id="panelAuth">
+                <div class="auth-toggle-subtabs">
+                    <span class="auth-subtab active" id="subtabSignIn">Sign In</span>
+                    <span class="auth-subtab" id="subtabSignUp">Sign Up</span>
+                </div>
+                
+                <!-- Sign In Form -->
+                <div id="formSignIn" class="auth-form">
+                    <div class="form-group">
+                        <label for="signInEmail">Email Address</label>
+                        <input type="email" id="signInEmail" placeholder="name@example.com" autocomplete="off">
+                    </div>
+                    <div class="form-group">
+                        <label for="signInPassword">Password</label>
+                        <input type="password" id="signInPassword" placeholder="Enter Password">
+                    </div>
+                    <button class="accent-btn auth-action-btn" id="btnSignInSubmit">Sign In</button>
+                </div>
+
+                <!-- Sign Up Form -->
+                <div id="formSignUp" class="auth-form hide">
+                    <div class="form-group">
+                        <label for="signUpName">Full Name</label>
+                        <input type="text" id="signUpName" placeholder="Your Name" autocomplete="off">
+                    </div>
+                    <div class="form-group">
+                        <label for="signUpEmail">Email Address</label>
+                        <input type="email" id="signUpEmail" placeholder="name@example.com" autocomplete="off">
+                    </div>
+                    <div class="form-group">
+                        <label for="signUpDob">Date of Birth</label>
+                        <input type="date" id="signUpDob">
+                    </div>
+                    <div class="form-group">
+                        <label for="signUpGender">Gender</label>
+                        <select id="signUpGender">
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Non-binary">Non-binary</option>
+                            <option value="Prefer not to say">Prefer not to say</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="signUpPassword">Password</label>
+                        <input type="password" id="signUpPassword" placeholder="Create Password">
+                    </div>
+                    <button class="accent-btn auth-action-btn" id="btnSignUpSubmit">Sign Up</button>
+                </div>
+                
+                <div id="authStatusMessage" class="auth-status-message hide"></div>
             </div>
         </div>
     </div>

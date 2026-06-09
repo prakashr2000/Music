@@ -22,12 +22,7 @@ const songsDb = [
             { time: 33, text: "Vanthal mass-u thalaivaa vaa vaa" },
             { time: 38, text: "Leo Leo Leo Leo Badass!" },
             { time: 43, text: "Suttu viralil aazhum mannan" },
-            { time: 48, text: "Vetrikondavan vaazhthum ganam" },
-            { time: 52, text: "🎵 (Synth Interlude)" },
-            { time: 65, text: "Singa thadam ithu singara nadaithu..." },
-            { time: 70, text: "Enge sentralum un aatchi thaan" },
-            { time: 75, text: "Ethirthu ninravan thoolagum pothu" },
-            { time: 80, text: "Vaazhve unadhu aanaiye..." }
+            { time: 48, text: "Vetrikondavan vaazhthum ganam" }
         ]
     },
     {
@@ -41,18 +36,10 @@ const songsDb = [
         duration: "4:39",
         themeColors: ["#ff007b", "#ff7b00", "#1a0826"],
         lyrics: [
-            { time: 0, text: "🎵 (Acoustic Guitar Guitar Solo)" },
+            { time: 0, text: "🎵 (Acoustic Guitar Solo)" },
             { time: 12, text: "Nee paartha vizhigal..." },
             { time: 17, text: "Nee paartha nodikal..." },
-            { time: 23, text: "Kettu kidakkum en nenjai thinbathu eno?" },
-            { time: 34, text: "Nee thotta viralgal..." },
-            { time: 40, text: "Nee thotta nodikal..." },
-            { time: 45, text: "Kotti kidakkum en anbai unarvathu eno?" },
-            { time: 57, text: "En vaazhvin touching neethaano..." },
-            { time: 62, text: "En vaanil deepam neethaano..." },
-            { time: 68, text: "Oru murai ennai paarthal pothum" },
-            { time: 74, text: "En uyirum kooda tharuven unakkaaga..." },
-            { time: 85, text: "Nee paartha vizhigal... nee thotta viralgal..." }
+            { time: 23, text: "Kettu kidakkum en nenjai thinbathu eno?" }
         ]
     },
     {
@@ -68,16 +55,7 @@ const songsDb = [
         lyrics: [
             { time: 0, text: "🎵 (Beautiful Violin Theme)" },
             { time: 10, text: "Kannazhaga... kalai azhaga..." },
-            { time: 16, text: "Nenjil vanthu nee vizhum pothu..." },
-            { time: 21, text: "Un vizhiyil en mugame paarkiren..." },
-            { time: 27, text: "Un moochin veppam enil unarkiren..." },
-            { time: 33, text: "Pennazhage... piravi azhage..." },
-            { time: 39, text: "Kai thottu ennai izhukkum pothu..." },
-            { time: 44, text: "En nenjai thirudiya thirudan neethana?" },
-            { time: 50, text: "En uyiril kalanthu nirainthavanum neethana..." },
-            { time: 57, text: "Un paadhangal nadakkum thadamellam..." },
-            { time: 63, text: "En kaadhal pookkal thaan..." },
-            { time: 69, text: "Muthal muthalaga theendiya anbe..." }
+            { time: 16, text: "Nenjil vanthu nee vizhum pothu..." }
         ]
     },
     {
@@ -91,16 +69,8 @@ const songsDb = [
         duration: "3:12",
         themeColors: ["#f857a6", "#ff5858", "#1c0d12"],
         lyrics: [
-            { time: 0, text: "🎵 (Classic Carnatic Drums & Flute)" },
-            { time: 8, text: "Thalapathy kacheri thaan indru..." },
-            { time: 12, text: "Thaarai thappattai muzhangidum nindru..." },
-            { time: 16, text: "Paatu padichu aattam potu kalakuvom vaa!" },
-            { time: 20, text: "Indha oore paarkum padi asathuvom vaa!" },
-            { time: 25, text: "Vaanam thottu ponaalum thalaivan naandhaan" },
-            { time: 29, text: "Kaalam maari ponaalum thozhan naandhaan" },
-            { time: 33, text: "Natpu thaan engal uyir moochu..." },
-            { time: 37, text: "Uravu thaan engal valimai aachu..." },
-            { time: 42, text: "Kacheri thodangatum... Kacheri adhiratum!" }
+            { time: 0, text: "🎵 (Classic Drums & Flute)" },
+            { time: 8, text: "Thalapathy kacheri thaan indru..." }
         ]
     },
     {
@@ -115,16 +85,7 @@ const songsDb = [
         themeColors: ["#00c6ff", "#0072ff", "#000c1c"],
         lyrics: [
             { time: 0, text: "🎵 (Acoustic Guitar Plucking)" },
-            { time: 8, text: "Enakenna yaarum illaye..." },
-            { time: 13, text: "Nee irunthum kooda illaye..." },
-            { time: 18, text: "Kaadhal ennum kadalil vizhunthen..." },
-            { time: 23, text: "Ezhunthu vara vazhi theriyaamal thavithen..." },
-            { time: 28, text: "Manathil ulla valigalai sonnalum..." },
-            { time: 33, text: "Ketka aalillai indru enge ponaai?" },
-            { time: 38, text: "En anbe... en arugil varuvaaya..." },
-            { time: 43, text: "En kuralai nee kettu thirumbuvaaya..." },
-            { time: 50, text: "Naan thurathum nizhalkalum nee thaan..." },
-            { time: 56, text: "En thuyarathin deepamum nee thaan..." }
+            { time: 8, text: "Enakenna yaarum illaye..." }
         ]
     },
     {
@@ -139,13 +100,7 @@ const songsDb = [
         themeColors: ["#ff9966", "#ff5e62", "#1e0f0c"],
         lyrics: [
             { time: 0, text: "🎵 (Warm Melodic Flute Intro)" },
-            { time: 12, text: "Chella magale... yen kannin maniye..." },
-            { time: 18, text: "Un punnagai paarkum pothu thuyaram maranthen..." },
-            { time: 24, text: "Un sirippil en ulagame kavizhthathu anbe..." },
-            { time: 30, text: "Magale... unnai kaappaathuven en uyir thandhu..." },
-            { time: 36, text: "Ethu vanthaalum naan un arugil irupen..." },
-            { time: 42, text: "Thanthaiyin anbu thaan intha ulagin perumai..." },
-            { time: 48, text: "Magalin mutham thaan en vaazhvin valimai..." }
+            { time: 12, text: "Chella magale... yen kannin maniye..." }
         ]
     },
     {
@@ -155,18 +110,12 @@ const songsDb = [
         album: "Raavanan",
         url: "https://res.cloudinary.com/dm0nc31ta/video/upload/v1780993542/Raavana-Mavandaa-MassTamilan.dev_ibkold.mp3",
         localUrl: "Songs/Raavana-Mavandaa-MassTamilan.dev.mp3",
-        art: "assets/oru_pere_varalaaru.png", // Reusing Lion cover for aggressive theme
+        art: "assets/oru_pere_varalaaru.png",
         duration: "4:19",
         themeColors: ["#e65c00", "#f9d423", "#1f0900"],
         lyrics: [
             { time: 0, text: "🎵 (Fiery Tribal Drums Intro)" },
-            { time: 15, text: "Raavana Mavandaa... Veera Singamadaa..." },
-            { time: 20, text: "Pathu thalai kondavan naandaa..." },
-            { time: 25, text: "Ennai vella yaar iruppaar intha ulagil..." },
-            { time: 30, text: "Agniyile piranthu valarnthen..." },
-            { time: 35, text: "Idi muzhakkam en kuralil ketpaai..." },
-            { time: 40, text: "Ethirthu ninraal thoolagum paaru!" },
-            { time: 45, text: "Raavananin aatchi thaan... indha mannil eppothum!" }
+            { time: 15, text: "Raavana Mavandaa... Veera Singamadaa..." }
         ]
     },
     {
@@ -174,17 +123,328 @@ const songsDb = [
         title: "Raga of Revenge",
         artist: "Anirudh Ravichander",
         album: "Vikram",
-        url: "Songs/Raga of Revenge.mp3", // Points to local file directly!
+        url: "Songs/Raga of Revenge.mp3",
         localUrl: "Songs/Raga of Revenge.mp3",
-        art: "assets/thalapathy_kacheri.png", // Reusing cover
+        art: "assets/thalapathy_kacheri.png",
         duration: "2:21",
         themeColors: ["#c31432", "#240b36", "#0f0105"],
         lyrics: [
-            { time: 0, text: "🎵 (Dark Suspenseful Strings)" },
-            { time: 10, text: "Raga of Revenge... (Violent Beats)" },
-            { time: 20, text: "En pagaiverin kuralai adakkuven..." },
-            { time: 30, text: "Ezhuven naan marupadiyum iruttilirundhu..." },
-            { time: 40, text: "Pazhivangum neram ithu... Vikram aarambam!" }
+            { time: 0, text: "🎵 (Dark Suspenseful Strings)" }
+        ]
+    },
+    {
+        id: 9,
+        title: "Unnaal Unnaal",
+        artist: "G. V. Prakash Kumar",
+        album: "Kaaka Muttai",
+        url: "https://res.cloudinary.com/dm0nc31ta/video/upload/v1780999342/Unnaal-Unnaal_v2sgq0.mp3",
+        localUrl: "https://res.cloudinary.com/dm0nc31ta/video/upload/v1780999342/Unnaal-Unnaal_v2sgq0.mp3",
+        art: "assets/chella_magale.png",
+        duration: "3:45",
+        themeColors: ["#ff9966", "#ff5e62", "#1e0f0c"],
+        lyrics: [
+            { time: 0, text: "🎵 (Acoustic Pluck Intro)" },
+            { time: 8, text: "Unnaal unnaal en nenjil..." },
+            { time: 14, text: "Pudhu aasai thondruthe anbe!" }
+        ]
+    },
+    {
+        id: 10,
+        title: "Mei Nigara",
+        artist: "Sid Sriram, A. R. Rahman",
+        album: "24",
+        url: "https://res.cloudinary.com/dm0nc31ta/video/upload/v1780999342/Mei-Nigara_xzkxhi.mp3",
+        localUrl: "https://res.cloudinary.com/dm0nc31ta/video/upload/v1780999342/Mei-Nigara_xzkxhi.mp3",
+        art: "assets/nee_paartha_vizhigal.png",
+        duration: "4:00",
+        themeColors: ["#ff007b", "#ff7b00", "#1a0826"],
+        lyrics: [
+            { time: 0, text: "🎵 (Upbeat Synth Intro)" },
+            { time: 10, text: "Mei nigara... mei nigara..." },
+            { time: 15, text: "Azhagellam un vizhiyil thaanadaa..." }
+        ]
+    },
+    {
+        id: 11,
+        title: "Yaro Yarodi",
+        artist: "Mahalakshmi Iyer, A. R. Rahman",
+        album: "Alaipayuthey",
+        url: "https://res.cloudinary.com/dm0nc31ta/video/upload/v1780999338/Yaro-Yarodi_wtrk7v.mp3",
+        localUrl: "https://res.cloudinary.com/dm0nc31ta/video/upload/v1780999338/Yaro-Yarodi_wtrk7v.mp3",
+        art: "assets/kannazhaga.png",
+        duration: "5:46",
+        themeColors: ["#0a2e5c", "#00decb", "#050f1f"],
+        lyrics: [
+            { time: 0, text: "🎵 (Classic Folk Nadaswaram)" },
+            { time: 10, text: "Yaro yarodi... unnododu koodi..." },
+            { time: 18, text: "Kalyanam mudichiduvaaro manamadi..." }
+        ]
+    },
+    {
+        id: 12,
+        title: "Evano Oruvan Vasikiran",
+        artist: "Swarnalatha, A. R. Rahman",
+        album: "Alaipayuthey",
+        url: "https://res.cloudinary.com/dm0nc31ta/video/upload/v1780999342/Evano-Oruvan-Vasikiran_cfefgb.mp3",
+        localUrl: "https://res.cloudinary.com/dm0nc31ta/video/upload/v1780999342/Evano-Oruvan-Vasikiran_cfefgb.mp3",
+        art: "assets/enakenna_yaarum_illaye.png",
+        duration: "5:56",
+        themeColors: ["#00c6ff", "#0072ff", "#000c1c"],
+        lyrics: [
+            { time: 0, text: "🎵 (Sorrowful Flute Solo)" },
+            { time: 15, text: "Evano oruvan vaasikkiraan..." },
+            { time: 24, text: "Iruttil irundhu naan ketkiren..." }
+        ]
+    },
+    {
+        id: 13,
+        title: "Sanda Kozhi",
+        artist: "Madhushree, A. R. Rahman",
+        album: "Ayutha Ezhuthu",
+        url: "https://res.cloudinary.com/dm0nc31ta/video/upload/v1780999329/Sanda-Kozhi_x22nc3.mp3",
+        localUrl: "https://res.cloudinary.com/dm0nc31ta/video/upload/v1780999329/Sanda-Kozhi_x22nc3.mp3",
+        art: "assets/thalapathy_kacheri.png",
+        duration: "4:56",
+        themeColors: ["#f857a6", "#ff5858", "#1c0d12"],
+        lyrics: [
+            { time: 0, text: "🎵 (Fast Village Rhythms)" },
+            { time: 12, text: "Sanda kozhi... sanda kozhi..." }
+        ]
+    },
+    {
+        id: 14,
+        title: "Kadhal Sadugudu",
+        artist: "S. P. Balasubrahmanyam, A. R. Rahman",
+        album: "Alaipayuthey",
+        url: "https://res.cloudinary.com/dm0nc31ta/video/upload/v1780999320/Kadhal-Sadugudu_voqbr3.mp3",
+        localUrl: "https://res.cloudinary.com/dm0nc31ta/video/upload/v1780999320/Kadhal-Sadugudu_voqbr3.mp3",
+        art: "assets/nee_paartha_vizhigal.png",
+        duration: "4:35",
+        themeColors: ["#ff007b", "#ff7b00", "#1a0826"],
+        lyrics: [
+            { time: 0, text: "🎵 (Funky Bass & Guitar)" },
+            { time: 10, text: "Kaadhal sadugudu... gudu gudu..." },
+            { time: 16, text: "Kannaal naan unnai mudindhen!" }
+        ]
+    },
+    {
+        id: 15,
+        title: "September Madham",
+        artist: "Asha Bhosle, A. R. Rahman",
+        album: "Alaipayuthey",
+        url: "https://res.cloudinary.com/dm0nc31ta/video/upload/v1780999308/September-Madham_kk25ol.mp3",
+        localUrl: "https://res.cloudinary.com/dm0nc31ta/video/upload/v1780999308/September-Madham_kk25ol.mp3",
+        art: "assets/kannazhaga.png",
+        duration: "5:08",
+        themeColors: ["#0a2e5c", "#00decb", "#050f1f"],
+        lyrics: [
+            { time: 0, text: "🎵 (Smooth R&B Drums)" },
+            { time: 12, text: "September madham... september madham..." }
+        ]
+    },
+    {
+        id: 16,
+        title: "Jana Gana Mana",
+        artist: "Karthik, A. R. Rahman",
+        album: "Ayutha Ezhuthu",
+        url: "https://res.cloudinary.com/dm0nc31ta/video/upload/v1780999307/Jana-Gana-Mana_bffzo4.mp3",
+        localUrl: "https://res.cloudinary.com/dm0nc31ta/video/upload/v1780999307/Jana-Gana-Mana_bffzo4.mp3",
+        art: "assets/oru_pere_varalaaru.png",
+        duration: "4:02",
+        themeColors: ["#d38312", "#a83279", "#111111"],
+        lyrics: [
+            { time: 0, text: "🎵 (Youthful Heavy Synth Beat)" },
+            { time: 8, text: "Jana Gana Mana... indhiya manamadaa..." }
+        ]
+    },
+    {
+        id: 17,
+        title: "Naan Un",
+        artist: "Arijit Singh, A. R. Rahman",
+        album: "24",
+        url: "https://res.cloudinary.com/dm0nc31ta/video/upload/v1780999296/Naan-Un_miqzf4.mp3",
+        localUrl: "https://res.cloudinary.com/dm0nc31ta/video/upload/v1780999296/Naan-Un_miqzf4.mp3",
+        art: "assets/chella_magale.png",
+        duration: "4:48",
+        themeColors: ["#ff9966", "#ff5e62", "#1e0f0c"],
+        lyrics: [
+            { time: 0, text: "🎵 (Dreamy Atmospheric Pads)" },
+            { time: 10, text: "Naan un... arugil varuven..." }
+        ]
+    },
+    {
+        id: 18,
+        title: "Yakkai Thiri",
+        artist: "Sunitha Sarathy, A. R. Rahman",
+        album: "Ayutha Ezhuthu",
+        url: "https://res.cloudinary.com/dm0nc31ta/video/upload/v1780999287/Yakkai-Thiri_mz3nw3.mp3",
+        localUrl: "https://res.cloudinary.com/dm0nc31ta/video/upload/v1780999287/Yakkai-Thiri_mz3nw3.mp3",
+        art: "assets/oru_pere_varalaaru.png",
+        duration: "4:34",
+        themeColors: ["#e65c00", "#f9d423", "#1f0900"],
+        lyrics: [
+            { time: 0, text: "🎵 (Cyberpunk Industrial Intro)" },
+            { time: 10, text: "Yakkai thiri kaadhal sudar..." }
+        ]
+    },
+    {
+        id: 19,
+        title: "Snehidhane",
+        artist: "Sadhana Sargam, A. R. Rahman",
+        album: "Alaipayuthey",
+        url: "https://res.cloudinary.com/dm0nc31ta/video/upload/v1780999287/Snehidhane_jfq2pf.mp3",
+        localUrl: "https://res.cloudinary.com/dm0nc31ta/video/upload/v1780999287/Snehidhane_jfq2pf.mp3",
+        art: "assets/nee_paartha_vizhigal.png",
+        duration: "6:05",
+        themeColors: ["#ff007b", "#ff7b00", "#1a0826"],
+        lyrics: [
+            { time: 0, text: "🎵 (Classic Flute & Sitar)" },
+            { time: 12, text: "Snehidhane... snehidhane..." }
+        ]
+    },
+    {
+        id: 20,
+        title: "Endrendrum Punnagai",
+        artist: "Clinton Cerejo, A. R. Rahman",
+        album: "Alaipayuthey",
+        url: "https://res.cloudinary.com/dm0nc31ta/video/upload/v1780999273/Endrendrum-Punnagai_uekkzn.mp3",
+        localUrl: "https://res.cloudinary.com/dm0nc31ta/video/upload/v1780999273/Endrendrum-Punnagai_uekkzn.mp3",
+        art: "assets/enakenna_yaarum_illaye.png",
+        duration: "4:00",
+        themeColors: ["#00c6ff", "#0072ff", "#000c1c"],
+        lyrics: [
+            { time: 0, text: "🎵 (Upbeat Acoustic Strum)" },
+            { time: 10, text: "Endrendrum punnagai tholainthathil..." }
+        ]
+    },
+    {
+        id: 21,
+        title: "Ambikapathy",
+        artist: "A. R. Rahman",
+        album: "Ambikapathy",
+        url: "https://res.cloudinary.com/dm0nc31ta/video/upload/v1780999266/Ambikapathy_yqyy6i.mp3",
+        localUrl: "https://res.cloudinary.com/dm0nc31ta/video/upload/v1780999266/Ambikapathy_yqyy6i.mp3",
+        art: "assets/thalapathy_kacheri.png",
+        duration: "4:15",
+        themeColors: ["#f857a6", "#ff5858", "#1c0d12"],
+        lyrics: [
+            { time: 0, text: "🎵 (Epic Orchestral Overture)" }
+        ]
+    },
+    {
+        id: 22,
+        title: "God Mode",
+        artist: "Anirudh Ravichander",
+        album: "Jana nayagan",
+        url: "https://res.cloudinary.com/dm0nc31ta/video/upload/v1780999259/God_Mode_rz6ryh.mp3",
+        localUrl: "https://res.cloudinary.com/dm0nc31ta/video/upload/v1780999259/God_Mode_rz6ryh.mp3",
+        art: "assets/oru_pere_varalaaru.png",
+        duration: "2:45",
+        themeColors: ["#d38312", "#a83279", "#111111"],
+        lyrics: [
+            { time: 0, text: "🎵 (Mass Electric Guitar Solo)" },
+            { time: 8, text: "Entering God Mode..." }
+        ]
+    },
+    {
+        id: 23,
+        title: "Kannukulla",
+        artist: "Vijay Prakash, A. R. Rahman",
+        album: "Maryan",
+        url: "https://res.cloudinary.com/dm0nc31ta/video/upload/v1780999257/Kannukulla_bfqqeq.mp3",
+        localUrl: "https://res.cloudinary.com/dm0nc31ta/video/upload/v1780999257/Kannukulla_bfqqeq.mp3",
+        art: "assets/kannazhaga.png",
+        duration: "4:40",
+        themeColors: ["#0a2e5c", "#00decb", "#050f1f"],
+        lyrics: [
+            { time: 0, text: "🎵 (Calm Sea Waves Intro)" },
+            { time: 10, text: "Kannukkulla... kannukkulla..." }
+        ]
+    },
+    {
+        id: 24,
+        title: "Oorum Blood",
+        artist: "A. R. Rahman",
+        album: "Maryan",
+        url: "https://res.cloudinary.com/dm0nc31ta/video/upload/v1780999252/Oorum_Blood_wm24mz.mp3",
+        localUrl: "https://res.cloudinary.com/dm0nc31ta/video/upload/v1780999252/Oorum_Blood_wm24mz.mp3",
+        art: "assets/oru_pere_varalaaru.png",
+        duration: "3:56",
+        themeColors: ["#e65c00", "#f9d423", "#1f0900"],
+        lyrics: [
+            { time: 0, text: "🎵 (Epic Electronic Dubstep Rhythms)" }
+        ]
+    },
+    {
+        id: 25,
+        title: "Kannukulla Reprise",
+        artist: "A. R. Rahman",
+        album: "Maryan",
+        url: "https://res.cloudinary.com/dm0nc31ta/video/upload/v1780999249/Kannukulla_Reprise_qy4py9.mp3",
+        localUrl: "https://res.cloudinary.com/dm0nc31ta/video/upload/v1780999249/Kannukulla_Reprise_qy4py9.mp3",
+        art: "assets/kannazhaga.png",
+        duration: "3:02",
+        themeColors: ["#0a2e5c", "#00decb", "#050f1f"],
+        lyrics: [
+            { time: 0, text: "🎵 (Soft Acoustic Strings)" }
+        ]
+    },
+    {
+        id: 26,
+        title: "Karuppa Kooda Va",
+        artist: "A. R. Rahman",
+        album: "Maryan",
+        url: "https://res.cloudinary.com/dm0nc31ta/video/upload/v1780999235/Karuppa_Kooda_Va_wzeegk.mp3",
+        localUrl: "https://res.cloudinary.com/dm0nc31ta/video/upload/v1780999235/Karuppa_Kooda_Va_wzeegk.mp3",
+        art: "assets/thalapathy_kacheri.png",
+        duration: "4:12",
+        themeColors: ["#f857a6", "#ff5858", "#1c0d12"],
+        lyrics: [
+            { time: 0, text: "🎵 (Fast Fisher Folk Drums)" }
+        ]
+    },
+    {
+        id: 27,
+        title: "Singari",
+        artist: "A. R. Rahman",
+        album: "Maryan",
+        url: "https://res.cloudinary.com/dm0nc31ta/video/upload/v1780999233/Singari_dr0stu.mp3",
+        localUrl: "https://res.cloudinary.com/dm0nc31ta/video/upload/v1780999233/Singari_dr0stu.mp3",
+        art: "assets/chella_magale.png",
+        duration: "3:44",
+        themeColors: ["#ff9966", "#ff5e62", "#1e0f0c"],
+        lyrics: [
+            { time: 0, text: "🎵 (Vocal Play Intro)" }
+        ]
+    },
+    {
+        id: 28,
+        title: "Naanga Naalu Peru",
+        artist: "A. R. Rahman",
+        album: "Maryan",
+        url: "https://res.cloudinary.com/dm0nc31ta/video/upload/v1780999218/Naanga_Naalu_Peru_jkhjxn.mp3",
+        localUrl: "https://res.cloudinary.com/dm0nc31ta/video/upload/v1780999218/Naanga_Naalu_Peru_jkhjxn.mp3",
+        art: "assets/oru_pere_varalaaru.png",
+        duration: "4:22",
+        themeColors: ["#d38312", "#a83279", "#111111"],
+        lyrics: [
+            { time: 0, text: "🎵 (Fast Folk Rhythms)" }
+        ]
+    },
+    {
+        id: 29,
+        title: "Mangalyam Tantunanena",
+        artist: "Clinton Cerejo, A. R. Rahman",
+        album: "Alaipayuthey",
+        url: "https://res.cloudinary.com/dm0nc31ta/video/upload/v1780999211/Mangalyam-Tantunanena_wjvrgg.mp3",
+        localUrl: "https://res.cloudinary.com/dm0nc31ta/video/upload/v1780999211/Mangalyam-Tantunanena_wjvrgg.mp3",
+        art: "assets/kannazhaga.png",
+        duration: "3:10",
+        themeColors: ["#0a2e5c", "#00decb", "#050f1f"],
+        lyrics: [
+            { time: 0, text: "🎵 (Sanskrit Chants & Modern Synth Pop)" },
+            { time: 8, text: "Mangalyam thandhunanena..." },
+            { time: 14, text: "Aasaikku aasaikku aasaiyadaa!" }
         ]
     }
 ];
@@ -214,6 +474,7 @@ document.addEventListener("DOMContentLoaded", () => {
     initAudioEventListeners();
     initControlEventListeners();
     initPlaylistEngine();
+    initProfileModalEngine();
     
     // Load default view
     navigateToView("listen-now", false);
@@ -1435,4 +1696,201 @@ function showToast(message) {
             toast.remove();
         }, 300);
     }, 2500);
+}
+
+// 15. User Profile and Authentication Management Engine
+function initProfileModalEngine() {
+    const profileModal = document.getElementById("profileDetailsModal");
+    const avatarBtn = document.querySelector(".profile-avatar");
+    const closeBtn = document.getElementById("btnCloseProfileModal");
+    
+    const tabEdit = document.getElementById("tabEditProfile");
+    const tabAuth = document.getElementById("tabAuth");
+    const panelEdit = document.getElementById("panelEditProfile");
+    const panelAuth = document.getElementById("panelAuth");
+    
+    const subtabSignIn = document.getElementById("subtabSignIn");
+    const subtabSignUp = document.getElementById("subtabSignUp");
+    const formSignIn = document.getElementById("formSignIn");
+    const formSignUp = document.getElementById("formSignUp");
+    
+    const btnSaveProfile = document.getElementById("btnSaveProfile");
+    const btnSignInSubmit = document.getElementById("btnSignInSubmit");
+    const btnSignUpSubmit = document.getElementById("btnSignUpSubmit");
+    const authStatus = document.getElementById("authStatusMessage");
+
+    // Load active profile data (persisted or defaults)
+    let profile = JSON.parse(localStorage.getItem("apple_music_profile")) || {
+        name: "Jane Doe",
+        email: "jane.doe@apple.com",
+        dob: "2000-01-01",
+        gender: "Female",
+        isSignedIn: true
+    };
+
+    // Initialize UI fields
+    updateProfileUI();
+
+    // Toggle Modal visibility
+    avatarBtn.addEventListener("click", () => {
+        profileModal.classList.remove("hide");
+        updateProfileUI();
+        resetAuthStatus();
+    });
+
+    closeBtn.addEventListener("click", () => {
+        profileModal.classList.add("hide");
+    });
+
+    // Close modal if clicked outside modal-content
+    profileModal.addEventListener("click", (e) => {
+        if (e.target === profileModal) {
+            profileModal.classList.add("hide");
+        }
+    });
+
+    // Tab switcher (Edit Profile vs Sign In/Up)
+    tabEdit.addEventListener("click", () => {
+        tabEdit.classList.add("active");
+        tabAuth.classList.remove("active");
+        panelEdit.classList.remove("hide");
+        panelAuth.classList.add("hide");
+    });
+
+    tabAuth.addEventListener("click", () => {
+        tabAuth.classList.add("active");
+        tabEdit.classList.remove("active");
+        panelAuth.classList.remove("hide");
+        panelEdit.classList.add("hide");
+    });
+
+    // Auth Subtab switcher (Sign In vs Sign Up)
+    subtabSignIn.addEventListener("click", () => {
+        subtabSignIn.classList.add("active");
+        subtabSignUp.classList.remove("active");
+        formSignIn.classList.remove("hide");
+        formSignUp.classList.add("hide");
+        resetAuthStatus();
+    });
+
+    subtabSignUp.addEventListener("click", () => {
+        subtabSignUp.classList.add("active");
+        subtabSignIn.classList.remove("active");
+        formSignUp.classList.remove("hide");
+        formSignIn.classList.add("hide");
+        resetAuthStatus();
+    });
+
+    // Save profile details
+    btnSaveProfile.addEventListener("click", () => {
+        const nameVal = document.getElementById("profileName").value.trim();
+        const emailVal = document.getElementById("profileEmail").value.trim();
+        const dobVal = document.getElementById("profileDob").value;
+        const genderVal = document.getElementById("profileGender").value;
+
+        if (!nameVal || !emailVal) {
+            showToast("Name and Email are required");
+            return;
+        }
+
+        profile.name = nameVal;
+        profile.email = emailVal;
+        profile.dob = dobVal;
+        profile.gender = genderVal;
+
+        saveProfileData();
+        profileModal.classList.add("hide");
+        showToast("Profile changes saved successfully");
+    });
+
+    // Sign In Submit
+    btnSignInSubmit.addEventListener("click", () => {
+        const email = document.getElementById("signInEmail").value.trim();
+        const password = document.getElementById("signInPassword").value;
+
+        if (!email || !password) {
+            showAuthStatus("Email and Password are required", "error");
+            return;
+        }
+
+        // Simulate authentication check
+        profile.email = email;
+        profile.name = email.split("@")[0].charAt(0).toUpperCase() + email.split("@")[0].slice(1); // Auto-extract name from email prefix
+        profile.isSignedIn = true;
+
+        saveProfileData();
+        showAuthStatus("Signed In successfully!", "success");
+
+        setTimeout(() => {
+            profileModal.classList.add("hide");
+            showToast(`Welcome back, ${profile.name}!`);
+        }, 1200);
+    });
+
+    // Sign Up Submit
+    btnSignUpSubmit.addEventListener("click", () => {
+        const name = document.getElementById("signUpName").value.trim();
+        const email = document.getElementById("signUpEmail").value.trim();
+        const dob = document.getElementById("signUpDob").value;
+        const gender = document.getElementById("signUpGender").value;
+        const password = document.getElementById("signUpPassword").value;
+
+        if (!name || !email || !password) {
+            showAuthStatus("Name, Email and Password are required", "error");
+            return;
+        }
+
+        // Update profile model
+        profile.name = name;
+        profile.email = email;
+        profile.dob = dob;
+        profile.gender = gender;
+        profile.isSignedIn = true;
+
+        saveProfileData();
+        showAuthStatus("Registration successful & Signed In!", "success");
+
+        setTimeout(() => {
+            profileModal.classList.add("hide");
+            showToast(`Account created! Welcome, ${profile.name}`);
+        }, 1200);
+    });
+
+    // Helper functions
+    function updateProfileUI() {
+        // Update input values
+        document.getElementById("profileName").value = profile.name || "";
+        document.getElementById("profileEmail").value = profile.email || "";
+        document.getElementById("profileDob").value = profile.dob || "";
+        document.getElementById("profileGender").value = profile.gender || "Female";
+
+        // Update header/avatar hover titles
+        avatarBtn.title = profile.isSignedIn ? `Account: ${profile.name}` : "Sign In / Account Settings";
+        avatarBtn.setAttribute("aria-label", profile.isSignedIn ? `Account: ${profile.name}` : "Account Details");
+
+        // Prepopulate Sign In/Up fields
+        if (profile.isSignedIn) {
+            document.getElementById("signInEmail").value = profile.email || "";
+        }
+    }
+
+    function saveProfileData() {
+        localStorage.setItem("apple_music_profile", JSON.stringify(profile));
+        updateProfileUI();
+    }
+
+    function showAuthStatus(message, type) {
+        authStatus.textContent = message;
+        authStatus.className = `auth-status-message ${type}`;
+        authStatus.classList.remove("hide");
+    }
+
+    function resetAuthStatus() {
+        authStatus.classList.add("hide");
+        authStatus.textContent = "";
+        
+        // Clear auth inputs except email if signed in
+        document.getElementById("signInPassword").value = "";
+        document.getElementById("signUpPassword").value = "";
+    }
 }
